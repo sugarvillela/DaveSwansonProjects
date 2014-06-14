@@ -1,0 +1,888 @@
+________________________________________
+
+Display Log:  2014-06-05 02:03:09
+
+Event:  2014-06-05 02:03:09
+	initDecode
+	Commence operation
+	Find and decode watermark: host name: encoded_a.wav
+
+Event:  2014-06-05 02:03:09
+	decToFile
+	Watermark found in host file
+	Found file ext: writing decoded data to fileName : decoded_a.txt
+
+Event:  2014-06-05 02:03:09
+	initPut
+	Commence operation
+	Opening out file: file name: decoded_a.txt
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 02:05:39
+
+Event:  2014-06-05 02:05:39
+	canonize
+	Cancelling operation
+	kidRap.wav already conforms to specs
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 02:05:39
+
+Event:  2014-06-05 02:05:39
+	init_encFToF
+	Commence operation
+	Encode file-to-file: host name: kidRap.wav,
+	 parasite name: JordanNDave.jpg,
+	 destination name: encoded_a.wav
+
+Event:  2014-06-05 02:05:39
+	initPut
+	Commence operation
+	Opening out file: file name: encoded_a.wav
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 02:05:39
+
+Event:  2014-06-05 02:05:39
+	initGet
+	Commence operation
+	Opening in file: file name: JordanNDave.jpg
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 02:06:01
+
+Event:  2014-06-05 02:06:01
+	verify
+	Open file(s)
+	In file 1: kidRap.wav == in file 2: encoded_a.wav
+
+Event:  2014-06-05 02:06:01
+	verify
+	Match file size and contents
+	Verify succeeded
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 02:08:49
+
+Event:  2014-06-05 02:08:49
+	canonize
+	Cancelling operation
+	drums.wav already conforms to specs
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 02:08:49
+
+Event:  2014-06-05 02:08:49
+	init_encFToF
+	Commence operation
+	Encode file-to-file: host name: drums.wav,
+	 parasite name: prose.txt,
+	 destination name: encoded_b.wav
+
+Event:  2014-06-05 02:08:49
+	initPut
+	Commence operation
+	Opening out file: file name: encoded_b.wav
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 02:08:49
+
+Event:  2014-06-05 02:08:49
+	initGet
+	Commence operation
+	Opening in file: file name: prose.txt
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 02:09:02
+
+Event:  2014-06-05 02:09:02
+	verify
+	Open file(s)
+	In file 1: drums.wav == in file 2: encoded_b.wav
+
+Event:  2014-06-05 02:09:02
+	verify
+	Match file size and contents
+	Verify succeeded
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 02:10:58
+
+Event:  2014-06-05 02:10:58
+	canonize
+	Cancelling operation
+	kidRap.wav already conforms to specs
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 02:10:58
+
+Event:  2014-06-05 02:10:58
+	init_encFToF
+	Commence operation
+	Encode file-to-file: host name: kidRap.wav,
+	 parasite name: Project2_WriteUp.pdf,
+	 destination name: encoded_c.wav
+
+Event:  2014-06-05 02:10:58
+	initPut
+	Commence operation
+	Opening out file: file name: encoded_c.wav
+
+Error:  2014-06-05 02:10:58
+	checkSize
+	Host file too small to encode.  Choose a larger file
+	Hose size:  1280988,
+	Needed size:  2273264
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 02:10:58
+
+Event:  2014-06-05 02:10:58
+	initGet
+	Commence operation
+	Opening in file: file name: Project2_WriteUp.pdf
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 10:10:16
+
+Event:  2014-06-05 10:10:16
+	canonize
+	Cancelling operation
+	./waveFiles/LongSong.wav already conforms to specs
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 10:10:16
+
+Event:  2014-06-05 10:10:16
+	init_encFToF
+	Commence operation
+	Encode file-to-file: host name: ./waveFiles/LongSong.wav,
+	 parasite name: ./parasites/Project2_WriteUp.pdf,
+	 destination name: ./encoded/encoded_a.wav
+
+Event:  2014-06-05 10:10:16
+	initPut
+	Commence operation
+	Opening out file: file name: ./encoded/encoded_a.wav
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 10:10:16
+
+Event:  2014-06-05 10:10:16
+	initGet
+	Commence operation
+	Opening in file: file name: ./parasites/Project2_WriteUp.pdf
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 10:10:53
+
+Event:  2014-06-05 10:10:53
+	verify
+	Open file(s)
+	In file 1: ./waveFiles/LongSong.wav == in file 2: ./encoded/encoded_a.wav
+
+Event:  2014-06-05 10:10:53
+	verify
+	Match file size and contents
+	Verify succeeded
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 10:23:29
+
+Event:  2014-06-05 10:23:28
+	initDecode
+	Commence operation
+	Find and decode watermark: host name: ./encoded/encoded_a.wav
+
+Event:  2014-06-05 10:23:28
+	decToFile
+	Watermark found in host file
+	Found file ext: writing decoded data to fileName : .pdf
+
+Event:  2014-06-05 10:23:28
+	initPut
+	Commence operation
+	Opening out file: file name: .pdf
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:21:32
+
+Event:  2014-06-05 11:21:32
+	initDecode
+	Commence operation
+	Find and decode watermark: host name: ./encoded/encoded_a.wav
+
+Event:  2014-06-05 11:21:32
+	decToFile
+	Watermark found in host file
+	Found file ext: writing decoded data to fileName : .pdf
+
+Event:  2014-06-05 11:21:32
+	initPut
+	Commence operation
+	Opening out file: file name: .pdf
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:24:39
+
+Event:  2014-06-05 11:24:38
+	initDecode
+	Commence operation
+	Find and decode watermark: host name: ./encoded/encoded_a.wav
+
+Event:  2014-06-05 11:24:38
+	decToFile
+	Watermark found in host file
+	Found file ext: writing decoded data to fileName : .pdf
+
+Event:  2014-06-05 11:24:38
+	initPut
+	Commence operation
+	Opening out file: file name: .pdf
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:25:53
+
+Event:  2014-06-05 11:25:53
+	initDecode
+	Commence operation
+	Find and decode watermark: host name: ./encoded/encoded_a.wav
+
+Event:  2014-06-05 11:25:53
+	decToFile
+	Watermark found in host file
+	Found file ext: writing decoded data to fileName : ./decoded/decoded_d.pdf
+
+Event:  2014-06-05 11:25:53
+	initPut
+	Commence operation
+	Opening out file: file name: ./decoded/decoded_d.pdf
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:27:43
+
+Event:  2014-06-05 11:27:43
+	canonize
+	Cancelling operation
+	./waveFiles/drums.wav already conforms to specs
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:27:43
+
+Event:  2014-06-05 11:27:43
+	init_encFToF
+	Commence operation
+	Encode file-to-file: host name: ./waveFiles/drums.wav,
+	 parasite name: ./parasites/JordanNDave.jpg,
+	 destination name: ./encoded/encoded_a.wav
+
+Event:  2014-06-05 11:27:43
+	initPut
+	Commence operation
+	Opening out file: file name: ./encoded/encoded_a.wav
+
+Error:  2014-06-05 11:27:43
+	checkSize
+	Host file too small to encode.  Choose a larger file
+	Hose size:  1454792,
+	Needed size:  1624600
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:27:43
+
+Event:  2014-06-05 11:27:43
+	initGet
+	Commence operation
+	Opening in file: file name: ./parasites/JordanNDave.jpg
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:28:33
+
+Event:  2014-06-05 11:28:33
+	canonize
+	Cancelling operation
+	./waveFiles/drums.wav already conforms to specs
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:28:33
+
+Event:  2014-06-05 11:28:33
+	init_encSToF
+	Commence operation
+	Encode string-to-file: host name: ./waveFiles/drums.wav,
+	 destination name: ./encoded/encoded_b.wav
+
+Event:  2014-06-05 11:28:33
+	initPut
+	Commence operation
+	Opening out file: file name: ./encoded/encoded_b.wav
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:28:42
+
+Event:  2014-06-05 11:28:42
+	verify
+	Open file(s)
+	In file 1: ./waveFiles/drums.wav == in file 2: ./encoded/encoded_b.wav
+
+Event:  2014-06-05 11:28:42
+	verify
+	Match file size and contents
+	Verify succeeded
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:29:28
+
+Event:  2014-06-05 11:29:28
+	initDecode
+	Commence operation
+	Find and decode watermark: host name: ./encoded/encoded_b.wav
+
+Event:  2014-06-05 11:29:28
+	decToString
+	Watermark found in host file
+	Found message; will output to screen
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:30:27
+
+Event:  2014-06-05 11:30:27
+	canonize
+	Cancelling operation
+	./waveFiles/kidRap.wav already conforms to specs
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:30:27
+
+Event:  2014-06-05 11:30:27
+	init_encFToF
+	Commence operation
+	Encode file-to-file: host name: ./waveFiles/kidRap.wav,
+	 parasite name: ./parasites/prose.txt,
+	 destination name: ./encoded/encoded_c.wav
+
+Event:  2014-06-05 11:30:27
+	initPut
+	Commence operation
+	Opening out file: file name: ./encoded/encoded_c.wav
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:30:27
+
+Event:  2014-06-05 11:30:27
+	initGet
+	Commence operation
+	Opening in file: file name: ./parasites/prose.txt
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:30:31
+
+Event:  2014-06-05 11:30:31
+	verify
+	Open file(s)
+	In file 1: ./waveFiles/kidRap.wav == in file 2: ./encoded/encoded_c.wav
+
+Event:  2014-06-05 11:30:31
+	verify
+	Match file size and contents
+	Verify succeeded
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:30:47
+
+Event:  2014-06-05 11:30:47
+	initDecode
+	Commence operation
+	Find and decode watermark: host name: ./encoded/encoded_c.wav
+
+Event:  2014-06-05 11:30:47
+	decToFile
+	Watermark found in host file
+	Found file ext: writing decoded data to fileName : ./decoded/decoded_f.txt
+
+Event:  2014-06-05 11:30:47
+	initPut
+	Commence operation
+	Opening out file: file name: ./decoded/decoded_f.txt
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:31:33
+
+Event:  2014-06-05 11:31:33
+	canonize
+	Cancelling operation
+	./waveFiles/LongSong.wav already conforms to specs
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:31:34
+
+Event:  2014-06-05 11:31:33
+	init_encFToF
+	Commence operation
+	Encode file-to-file: host name: ./waveFiles/LongSong.wav,
+	 parasite name: ./parasites/JordanNDave.jpg,
+	 destination name: ./encoded/encoded_d.wav
+
+Event:  2014-06-05 11:31:34
+	initPut
+	Commence operation
+	Opening out file: file name: ./encoded/encoded_d.wav
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:31:34
+
+Event:  2014-06-05 11:31:33
+	initGet
+	Commence operation
+	Opening in file: file name: ./parasites/JordanNDave.jpg
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:32:00
+
+Event:  2014-06-05 11:32:00
+	verify
+	Open file(s)
+	In file 1: ./waveFiles/LongSong.wav == in file 2: ./encoded/encoded_d.wav
+
+Event:  2014-06-05 11:32:00
+	verify
+	Match file size and contents
+	Verify succeeded
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:32:21
+
+Event:  2014-06-05 11:32:21
+	initDecode
+	Commence operation
+	Find and decode watermark: host name: ./encoded/encoded_d.wav
+
+Event:  2014-06-05 11:32:21
+	decToFile
+	Watermark found in host file
+	Found file ext: writing decoded data to fileName : ./decoded/decoded_g.jpg
+
+Event:  2014-06-05 11:32:21
+	initPut
+	Commence operation
+	Opening out file: file name: ./decoded/decoded_g.jpg
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:36:12
+
+Event:  2014-06-05 11:36:12
+	verify
+	Open file(s)
+	In file 1: ./waveFiles/1Hz_Saw.wav == in file 2: ./parasites/prose.txt
+
+Error:  2014-06-05 11:36:12
+	verify
+	File sizes do not match
+	88318 != 5182
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:37:09
+
+Event:  2014-06-05 11:37:08
+	canonize
+	Commence operation
+	./waveFiles/non-canon.wav does not conform to specs.  Fixing now
+
+Event:  2014-06-05 11:37:08
+	initPut
+	Commence operation
+	Opening out file: file name: ./waveFiles/temp.wav
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-05 11:40:56
+
+Event:  2014-06-05 11:40:56
+	initGet
+	Commence operation
+	Opening in file: file name: ./parasites/numsText.txt
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-06 11:00:32
+
+Event:  2014-06-06 11:00:32
+	initDecode
+	Commence operation
+	Find and decode watermark: host name: ./encoded/encoded_b.wav
+
+Event:  2014-06-06 11:00:32
+	decToString
+	Watermark found in host file
+	Found message; will output to screen
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-06 11:00:53
+
+Event:  2014-06-06 11:00:53
+	initDecode
+	Commence operation
+	Find and decode watermark: host name: ./encoded/encoded_a.wav
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-06 11:01:20
+
+Event:  2014-06-06 11:01:20
+	initDecode
+	Commence operation
+	Find and decode watermark: host name: ./encoded/encoded_c.wav
+
+Event:  2014-06-06 11:01:20
+	decToFile
+	Watermark found in host file
+	Found file ext: writing decoded data to fileName : ./decoded/decoded_j.txt
+
+Event:  2014-06-06 11:01:20
+	initPut
+	Commence operation
+	Opening out file: file name: ./decoded/decoded_j.txt
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-06 11:01:37
+
+Event:  2014-06-06 11:01:37
+	initDecode
+	Commence operation
+	Find and decode watermark: host name: ./encoded/encoded_d.wav
+
+Event:  2014-06-06 11:01:37
+	decToFile
+	Watermark found in host file
+	Found file ext: writing decoded data to fileName : ./decoded/decoded_k.jpg
+
+Event:  2014-06-06 11:01:37
+	initPut
+	Commence operation
+	Opening out file: file name: ./decoded/decoded_k.jpg
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-06 11:04:29
+
+Event:  2014-06-06 11:04:29
+	canonize
+	Cancelling operation
+	./waveFiles/LongSong.wav already conforms to specs
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-06 11:04:38
+
+Event:  2014-06-06 11:04:29
+	init_encFToF
+	Commence operation
+	Encode file-to-file: host name: ./waveFiles/LongSong.wav,
+	 parasite name: ./parasites/Project2_WriteUp.pdf,
+	 destination name: ./encoded/encoded_e.wav
+
+Event:  2014-06-06 11:04:30
+	initPut
+	Commence operation
+	Opening out file: file name: ./encoded/encoded_e.wav
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-06 11:04:38
+
+Event:  2014-06-06 11:04:30
+	initGet
+	Commence operation
+	Opening in file: file name: ./parasites/Project2_WriteUp.pdf
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-06 11:05:02
+
+Event:  2014-06-06 11:05:01
+	verify
+	Open file(s)
+	In file 1: ./waveFiles/LongSong.wav == in file 2: ./encoded/encoded_e.wav
+
+Event:  2014-06-06 11:05:02
+	verify
+	Match file size and contents
+	Verify succeeded
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-06 11:05:29
+
+Event:  2014-06-06 11:05:29
+	initDecode
+	Commence operation
+	Find and decode watermark: host name: ./encoded/encoded_e.wav
+
+Event:  2014-06-06 11:05:29
+	decToFile
+	Watermark found in host file
+	Found file ext: writing decoded data to fileName : ./decoded/decoded_l.pdf
+
+Event:  2014-06-06 11:05:29
+	initPut
+	Commence operation
+	Opening out file: file name: ./decoded/decoded_l.pdf
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-07 11:20:09
+
+Event:  2014-06-07 11:20:09
+	canonize
+	Commence operation
+	./waveFiles/1Hz_Saw.wav does not conform to specs.  Fixing now
+
+Event:  2014-06-07 11:20:09
+	initPut
+	Commence operation
+	Opening out file: file name: temp.wav
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-07 11:20:09
+
+Event:  2014-06-07 11:20:09
+	initGet
+	Commence operation
+	Opening in file: file name: temp.wav
+
+Event:  2014-06-07 11:20:09
+	initPut
+	Commence operation
+	Opening out file: file name: ./waveFiles/1Hz_Saw.wav
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-08 12:04:34
+
+Error:  2014-06-08 12:04:34
+	canonize
+	Failed to open file
+	./waveFiles/hhh.wav
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-09 11:43:46
+
+Event:  2014-06-09 11:43:46
+	canonize
+	Cancelling operation
+	./waveFiles/kidRap.wav already conforms to specs
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-09 11:43:47
+
+Event:  2014-06-09 11:43:46
+	init_encFToF
+	Commence operation
+	Encode file-to-file: host name: ./waveFiles/kidRap.wav,
+	 parasite name: ./parasites/JordanNDave.jpg,
+	 destination name: ./encoded/encoded_f.wav
+
+Event:  2014-06-09 11:43:46
+	initPut
+	Commence operation
+	Opening out file: file name: ./encoded/encoded_f.wav
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-09 11:43:47
+
+Event:  2014-06-09 11:43:46
+	initGet
+	Commence operation
+	Opening in file: file name: ./parasites/JordanNDave.jpg
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-09 11:43:59
+
+Event:  2014-06-09 11:43:59
+	verify
+	Open file(s)
+	In file 1: ./waveFiles/kidRap.wav == in file 2: ./encoded/encoded_f.wav
+
+Event:  2014-06-09 11:43:59
+	verify
+	Match file size and contents
+	Verify succeeded
+
+________________________________________
+
+________________________________________
+
+Display Log:  2014-06-09 11:44:45
+
+Event:  2014-06-09 11:44:45
+	initDecode
+	Commence operation
+	Find and decode watermark: host name: ./encoded/encoded_f.wav
+
+Event:  2014-06-09 11:44:45
+	decToFile
+	Watermark found in host file
+	Found file ext: writing decoded data to fileName : ./decoded/decoded_m.jpg
+
+Event:  2014-06-09 11:44:45
+	initPut
+	Commence operation
+	Opening out file: file name: ./decoded/decoded_m.jpg
+
+________________________________________
+
