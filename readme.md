@@ -4,7 +4,7 @@ A steganographer hides a small file within a large file
 ## Overview
 * This program encodes a file of any type into an audio wave file
 * I wrote it back in 2014.
-* Challenges at the time included: researching the .wav format, reading the header portion of the file to get file data and doing bit-wise operations to get at the hidden data
+* Challenges at the time included: researching the .wav format, reading the header portion of the file to get file attributes and doing bit-wise operations to get at the hidden data
 
 ## How it works
 * A typical wave file is large, 2 or 3 bytes times 44,100 samples per second of audio.
